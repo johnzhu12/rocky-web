@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server  --mode development --open --config rocky-web/build/webpack.config.js",
+    "build": "cross-env NODE_ENV=prod webpack --mode production --config rocky-web/build/webpack.config.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^3.15.0",
+    "ts-loader": "^4.0.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-command": "^0.4.1"
+  },
+  "dependencies": {
+    "@types/react": "^16.1.0",
+    "@types/react-dom": "^16.0.4",
+    "typescript": "2.5.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^4.0.0",
+    "webpack-dev-server": "^3.1.0",
+    "webpack-merge": "^4.1.0",
+    "lodash": "^4.17.4"
+  }
+}
