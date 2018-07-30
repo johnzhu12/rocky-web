@@ -5,7 +5,7 @@ let envConf = merge(baseConf, {
     devtool: 'inline-source-map',
     // entry: ['webpack/hot/dev-server'],
     devServer: {
-        contentBase: './rocky-web/public/',
+        contentBase: './public/',
         host: perConf.host || 'localhost',
         port: '8100',
         inline: true,//可以监控js变化

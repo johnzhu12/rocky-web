@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { DatePicker, Button } from 'antd'
 import * as moment from 'moment'
-import 'antd/dist/antd.css'   //globally import css
+
 interface DemoStates {
     startDate: string;
     endDate: string;
@@ -66,7 +66,7 @@ class Demo extends React.Component<DemoProps, DemoStates> {
         return (
             <div>
                 <DatePicker {...startDateProps} />~
-            <DatePicker {...endDateProps} />
+                <DatePicker {...endDateProps} />
 
                 <div style={{ marginTop: '20px' }}>
                     <Button type="primary" onClick={this.submit.bind(this)}>点我</Button>
