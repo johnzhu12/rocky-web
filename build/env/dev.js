@@ -7,7 +7,7 @@ let envConf = merge(baseConf, {
     devServer: {
         contentBase: './public/',
         host: perConf.host || 'localhost',
-        port: '8100',
+        port: '8200',
         inline: true,//可以监控js变化
         hot: true//热启动
     }
